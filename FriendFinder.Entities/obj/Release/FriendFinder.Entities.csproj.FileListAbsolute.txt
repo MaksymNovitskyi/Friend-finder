@@ -1,0 +1,4 @@
+C:\vova\epam\FriendFinder\FriendFinder.Entities\bin\Release\FriendFinder.Entities.dll
+C:\vova\epam\FriendFinder\FriendFinder.Entities\bin\Release\FriendFinder.Entities.pdb
+C:\vova\epam\FriendFinder\FriendFinder.Entities\obj\Release\FriendFinder.Entities.dll
+C:\vova\epam\FriendFinder\FriendFinder.Entities\obj\Release\FriendFinder.Entities.pdb

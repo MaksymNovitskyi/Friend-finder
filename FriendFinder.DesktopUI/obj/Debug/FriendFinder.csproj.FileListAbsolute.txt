@@ -1,0 +1,1 @@
+C:\vova\epam\Friend-finder\FriendFinder\FriendFinder\bin\Debug\FriendFinder.exe.config

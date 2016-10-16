@@ -1,0 +1,7 @@
+C:\vova\epam\FriendFinder\FriendFinder.Repositories\bin\Debug\FriendFinder.Repositories.dll
+C:\vova\epam\FriendFinder\FriendFinder.Repositories\bin\Debug\FriendFinder.Repositories.pdb
+C:\vova\epam\FriendFinder\FriendFinder.Repositories\obj\Debug\FriendFinder.Repositories.dll
+C:\vova\epam\FriendFinder\FriendFinder.Repositories\obj\Debug\FriendFinder.Repositories.pdb
+C:\vova\epam\FriendFinder\FriendFinder.Repositories\obj\Debug\FriendFinder.Repositories.csprojResolveAssemblyReference.cache
+C:\vova\epam\FriendFinder\FriendFinder.Repositories\bin\Debug\FriendFinder.Entities.dll
+C:\vova\epam\FriendFinder\FriendFinder.Repositories\bin\Debug\FriendFinder.Entities.pdb

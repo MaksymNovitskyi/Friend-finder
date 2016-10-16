@@ -1,0 +1,7 @@
+C:\vova\epam\FriendFinder\FriendFinder.Database\bin\Debug\FriendFinder.Database.dacpac
+C:\vova\epam\FriendFinder\FriendFinder.Database\obj\Debug\Model.xml
+C:\vova\epam\FriendFinder\FriendFinder.Database\obj\Debug\refactor.xml
+C:\vova\epam\FriendFinder\FriendFinder.Database\obj\Debug\postdeploy.sql
+C:\vova\epam\FriendFinder\FriendFinder.Database\obj\Debug\predeploy.sql
+C:\vova\epam\FriendFinder\FriendFinder.Database\obj\Debug\FriendFinder.Database.dll
+C:\vova\epam\FriendFinder\FriendFinder.Database\obj\Debug\FriendFinder.Database.pdb
