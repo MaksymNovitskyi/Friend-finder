@@ -2,3 +2,4 @@ C:\vova\epam\FriendFinder\FriendFinder.Entities\bin\Debug\FriendFinder.Entities.
 C:\vova\epam\FriendFinder\FriendFinder.Entities\bin\Debug\FriendFinder.Entities.pdb
 C:\vova\epam\FriendFinder\FriendFinder.Entities\obj\Debug\FriendFinder.Entities.dll
 C:\vova\epam\FriendFinder\FriendFinder.Entities\obj\Debug\FriendFinder.Entities.pdb
+C:\vova\epam\FriendFinder\FriendFinder.Entities\obj\Debug\FriendFinder.Entities.csprojResolveAssemblyReference.cache
