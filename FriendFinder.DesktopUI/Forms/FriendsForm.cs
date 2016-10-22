@@ -21,6 +21,7 @@ namespace FriendFinder.Forms
             InitializeComponent();
         }
 
+        //REVIEW TK: Naming.
         private void trackBar1_ValueChanged(object sender, EventArgs e)
         {
             var ids = _finderRepository.GetIdsOfTheMostSuitablePersons(CurrentUser.GetId(), trackBar1.Value);

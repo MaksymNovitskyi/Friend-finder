@@ -25,6 +25,7 @@ namespace FriendFinder.Repositories.Repositories
                 connection.Open();
                 using (SqlCommand command = new SqlCommand())
                 {
+                    //REVIEW TK: what is the point of 'responseMessage'?
                     var responseMessage = string.Empty;
                     command.Connection = connection;
                     command.CommandType = CommandType.StoredProcedure;
@@ -59,6 +60,7 @@ namespace FriendFinder.Repositories.Repositories
                 connection.Open();
                 using (SqlCommand command = new SqlCommand())
                 {
+                    //REVIEW TK: what is the point of 'responseMessage'?
                     var responseMessage = string.Empty;
                     command.Connection = connection;
                     command.CommandType = CommandType.StoredProcedure;

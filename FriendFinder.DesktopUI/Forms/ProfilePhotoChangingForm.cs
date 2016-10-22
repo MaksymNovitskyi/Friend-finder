@@ -20,6 +20,7 @@ namespace FriendFinder.Forms
             InitializeComponent();
         }
 
+        //REVIEW TK: Naming!
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             if(IsValidPhotoLink(textBox1.Text))
@@ -35,6 +36,8 @@ namespace FriendFinder.Forms
             {
                 return false;
             }
+            //REVIEW TK: throws exception when http link is invalid!
+            //Use some kind of regex to check it before creating!
             var req = (HttpWebRequest)HttpWebRequest.Create(photolink);
             req.Method = "HEAD";
             using (var resp = req.GetResponse())
@@ -70,6 +73,7 @@ namespace FriendFinder.Forms
             }
         }
 
+        //REVIEW TK: why do you even deny cancel button? it makes UI uncomfortable.
         private void cancelButton_Click(object sender, EventArgs e)
         {
             this.Close();

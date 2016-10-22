@@ -46,6 +46,7 @@ namespace FriendFinder.Forms
         {
             var encryptedPassword = (new Encryptor()).Encrypt(passwordBox.Text);
 
+            //REVIEW TK: Entity as a parameter would look much better, but i guess this is 'faster'.
             var response = _userRepository.AddParticipant(nameBox.Text, surnameBox.Text,
                 maleRadio.Checked ? 'M' : 'W', birthBox.Text, regionBox.Text, cityBox.Text,
                 (string)educationCombo.SelectedItem, (string)musicCombo.SelectedItem, (string)movieCombo.SelectedItem,

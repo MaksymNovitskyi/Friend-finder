@@ -5,3 +5,10 @@ C:\vova\epam\FriendFinder\FriendFinder.Repositories\bin\Release\FriendFinder.Ent
 C:\vova\epam\FriendFinder\FriendFinder.Repositories\obj\Release\FriendFinder.Repositories.csprojResolveAssemblyReference.cache
 C:\vova\epam\FriendFinder\FriendFinder.Repositories\obj\Release\FriendFinder.Repositories.dll
 C:\vova\epam\FriendFinder\FriendFinder.Repositories\obj\Release\FriendFinder.Repositories.pdb
+E:\Imp\Git\Review\Friend-finder\FriendFinder.Repositories\bin\Release\FriendFinder.Repositories.dll
+E:\Imp\Git\Review\Friend-finder\FriendFinder.Repositories\bin\Release\FriendFinder.Repositories.pdb
+E:\Imp\Git\Review\Friend-finder\FriendFinder.Repositories\bin\Release\FriendFinder.Entities.dll
+E:\Imp\Git\Review\Friend-finder\FriendFinder.Repositories\bin\Release\FriendFinder.Entities.pdb
+E:\Imp\Git\Review\Friend-finder\FriendFinder.Repositories\obj\Release\FriendFinder.Repositories.csprojResolveAssemblyReference.cache
+E:\Imp\Git\Review\Friend-finder\FriendFinder.Repositories\obj\Release\FriendFinder.Repositories.dll
+E:\Imp\Git\Review\Friend-finder\FriendFinder.Repositories\obj\Release\FriendFinder.Repositories.pdb

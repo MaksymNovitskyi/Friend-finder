@@ -21,6 +21,7 @@ namespace FriendFinder.Forms
             _user = _userRepository.GetParticipant(userID);
         }
 
+        //REVIEW TK: Naming. 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
             if (_user.PhotoLink != string.Empty)

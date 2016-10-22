@@ -1,4 +1,6 @@
 USE FriendFinder
+--REVIEW TK:
+--@@IDENTITY, returns the last identity value generated for ANY TABLE. This may cause trouble, use SCOPE_INDENTITY() instead.
 
 GO
 CREATE PROCEDURE spAddParticipant
@@ -33,7 +35,8 @@ BEGIN
 		SET @responseMessage = 'This email exists';
 		return;
 	END
-
+	
+----REVIEW TK: BEGIN TRY/CATCH WON'T REVERT PREVIOUS ACTIONS! Use transactions!!!
     BEGIN TRY
 		DECLARE @PersonID int;
 		DECLARE @TerritoryID int;
@@ -75,6 +78,10 @@ BEGIN
 	END
 END
 
+--REVIEW TK: Calling spAddTerritory by it self might insert duplicates in your table.
+--Consider making UNIQUE constraint on Territory table.
+--Or merge spGetTerritoryID and spAddTerritory into one procedure.
+--Choice depends on your 'design'.
 GO
 CREATE PROCEDURE spAddTerritory
 	@newRegion NVARCHAR(40),
@@ -127,6 +134,9 @@ BEGIN
 	SET @Id = @@IDENTITY;
 END
 
+
+--REVIEW TK: Use reference CASCADE DELETE in tables.
+--Or at least transaction.
 GO
 CREATE PROCEDURE spRemoveParticipant
 	@ParticipantID int

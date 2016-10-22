@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace FriendFinder
 {
+
     public partial class MainForm : Form
     {
         private readonly IUserRepository _userRepository;
@@ -72,6 +73,7 @@ namespace FriendFinder
             if (MessageBox.Show("Are you sure you want to delete your account?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
                 return;
+                //REVIEW TK: if you are returning here, then there is no use for 'ELSE'.
             }
             else
             {

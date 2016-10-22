@@ -127,6 +127,7 @@ namespace FriendFinder.Repositories
             return -1;
         }
 
+        //REVIEW TK: this looks like a hell!
         public int AddParticipant(string name, string surname, char gender, string dateOfBirth, 
             string region, string city, string education, string musicgenre, 
             string moviegenre, int smoking, int alcohol, string politicalviews, 

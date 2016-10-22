@@ -26,6 +26,7 @@ namespace FriendFinder.Forms
 
         private void FriendItem_Load(object sender, EventArgs e)
         {
+            //REVIEW TK: (_user.PhotoLink != null)
             if (!(_user.PhotoLink == null))
             {
                 friendPhotoBox.ImageLocation = _user.PhotoLink;

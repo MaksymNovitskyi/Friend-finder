@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace FriendFinder.Forms
 {
+    //REVIEW TK: Consider reusing SignUpForm or vice-versa.
     public partial class EditForm : Form
     {
         private readonly IPersonRepository _personRepository;
@@ -32,6 +33,7 @@ namespace FriendFinder.Forms
 
         private void Editing_Load(object sender, EventArgs e)
         {
+            //REVIEW TK: No input validation, able to set name to '1', etc.
             nameBox.Text = CurrentUser.GetPersonInfo().Name;
             surnameBox.Text = CurrentUser.GetPersonInfo().Surname;
             birthBox.Text = CurrentUser.GetPersonInfo().DateOfBirth.ToString("yyyy-MM-dd");
@@ -53,7 +55,7 @@ namespace FriendFinder.Forms
             smokingCombo.SelectedItem = Helper.IntToViewsOn(CurrentUser.GetQuestionaryInfo().ViewsOnSmoking);
             alcoCombo.SelectedItem = Helper.IntToViewsOn(CurrentUser.GetQuestionaryInfo().ViewsOnAlcohol);
         }
-
+        //REVIEW TK: Not having cancel button is really,really weird and uncomfortable!
         private void cancelButton_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -74,6 +76,7 @@ namespace FriendFinder.Forms
                     (string)movieCombo.SelectedItem, Helper.ViewsOnToInt((string)smokingCombo.SelectedItem), 
                     Helper.ViewsOnToInt((string)alcoCombo.SelectedItem), (string)politicalCombo.SelectedItem);
 
+                //REVIEW TK: what's the point of previous 'response'? UpdateEmail result overrides previous response.
                 response = _userRepository.UpdateEmailAddress(CurrentUser.GetId(), emailBox.Text);
             }
             catch (SqlException exception)

@@ -6,6 +6,8 @@ using System.Text.RegularExpressions;
 
 namespace FriendFinder.Repositories.Helpers
 {
+    //REVIEW TK: Don't know if i'm right, but i think reader is the only think that belongs here, everything else should be in UI.(unmarked)
+    //Consider separating validators into different file.
     public static class Helper
     {
         public static bool IsValidEmail(string emailaddress)
@@ -38,6 +40,7 @@ namespace FriendFinder.Repositories.Helpers
                 return false;
             }
 
+            //REVIEW TK: return date < DateTime.Now;
             return date < DateTime.Now ? true : false;
         }
 
