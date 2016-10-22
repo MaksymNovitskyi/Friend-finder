@@ -56,6 +56,7 @@ namespace FriendFinder.Forms
             Application.Exit();
         }
 
+        //REVIEW TK: NAMING! Why caps?
         private void buttonSIGNUP_Click(object sender, EventArgs e)
         {
             (new SignUpForm()).Show();
